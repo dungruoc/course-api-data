@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "a2c1e02c-e327-401a-ae14-8bdbf20d7ce0",
+		"name": "SpringBootStarter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/topics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"javaee\",\r\n    \"name\": \"Java Enterprise Edition\",\r\n    \"description\": \"Java Enterprise Edition Description\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"java\",\r\n    \"name\": \"Core Java\",\r\n    \"description\": \"Core Java Description\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/javaee",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"javaee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics/javaee",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"javaee\",\r\n    \"name\": \"Java Enterprise Edition\",\r\n    \"description\": \"Java Enterprise Edition New Description\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/topics/javaee",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"javaee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics/javaee",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"javaee\",\r\n    \"name\": \"Java Enterprise Edition\",\r\n    \"description\": \"Java Enterprise Edition New Description\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/topics/javaee",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"javaee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"java\",\r\n    \"name\": \"Core Java\",\r\n    \"description\": \"Core Java Description\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/java/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/topics/javaee",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"java-streams\",\r\n    \"name\": \"Core Java Streams NEW\",\r\n    \"description\": \"Core Java Streams Description\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/courses/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses/java-streams",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
